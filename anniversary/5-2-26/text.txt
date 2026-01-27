@@ -1,0 +1,17 @@
+.START {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 7vh;
+    font-family: "custom1";
+}
+li a {
+    text-decoration: none;
+    color: black;
+    border: 3px dashed black;
+    border-radius: 20px;
+    padding: 10px;
+}

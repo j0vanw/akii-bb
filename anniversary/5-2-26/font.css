@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "custom1";
+    src: url(fonts/Love\ Buble.otf) format(OpenType);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "custom2";
+    src: url(fonts/Happy\ School.ttf) format(TrueType);
+    font-weight: normal;
+    font-style: normal;
+}
