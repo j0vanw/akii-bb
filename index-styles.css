@@ -24,6 +24,13 @@ body {
       margin: auto;
     }
 
+    @media (max-width: 600px) {
+      .grid {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+
     .card {
       background: #181818;
       padding: 1.5rem;
