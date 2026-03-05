@@ -15,15 +15,6 @@ body {
       font-size: 60px;
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.5rem;
-      padding: 1.5rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
     @media (max-width: 600px) {
       .grid {
         display: flex;
@@ -34,19 +25,21 @@ body {
     @media (min-width: 601px) {
       .grid {
         direction: rtl;
-      }
-
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+        padding: 1.5rem;
+        max-width: 1000px;
+        margin: auto;
+      } 
       .card {
         direction: ltr;
+        background: #181818;
+        padding: 1.5rem;
+        border-radius: 12px;
+        text-align: center;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
       }
-    }
-
-    .card {
-      background: #181818;
-      padding: 1.5rem;
-      border-radius: 12px;
-      text-align: center;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     .card:hover {
